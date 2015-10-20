@@ -1,0 +1,24 @@
+<html><head><script src=https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js></script><script type=text/javascript></script><?php include("header.php"); ?><link rel=stylesheet type=text/css href=sass/base.css></head><body class=body-container><div id=div1 class=start-content><h1>Valerie Bay</h1><p>Front-End Developer</p><p>Illustrator</p><p>Weeaboo</p><a>enter site</a></div><script>
+		$(document).ready(function(){
+		    $("a").hover(function(){
+		        $(this).css("background-color", "pink");
+		        $(this).css("border-color", "white");
+		        $(this).css("color", "white");
+		        }, function(){
+		        $(this).css("background-color", "");
+		        $(this).css("border-color", "#9B9B9B");
+		        $(this).css("color", "#9B9B9B");
+		        
+		    });
+		});
+		</script><script>
+		$(document).ready(function(){
+        	$("a").click(function(e){
+        		//var href = $(this).attr('href');
+            	e.preventDefault();
+       			$('#div1').fadeOut('3000') ;
+       			$('#header').fadeIn('slow') ;
+
+		   });
+		});
+		</script></body></html>
