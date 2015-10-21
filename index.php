@@ -42,7 +42,7 @@
 		<!--change this later to use css instead of js-->
 		<script>
 		$(document).ready(function(){
-		    $("a").hover(function(){
+		    $("#enterSite").hover(function(){
 		        $(this).css("background-color", "pink");
 		        $(this).css("border-color", "white");
 		        $(this).css("color", "white");
