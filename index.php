@@ -6,7 +6,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
 		<!--<script src="splash_animation.js"></script>	-->
 		<script type="text/javascript"></script>
-		<script src="../node_modules/js-cookie/src/js.cookie.js"></script>	
+		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>	
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<!--<div id="header" style="display:none"></div>-->
 	</head>
@@ -35,7 +35,7 @@
 		  	<p>Front-End Developer</p>
 		  	<p>Illustrator</p>
 		  	<p>Weeaboo</p>
-		  	<a href="">enter site</a>
+		  	<a id="enterSite" href="">enter site</a>
 		</div>
 
 		<!-- on hover will change elements, off hover is described in the second function-->
@@ -50,33 +50,35 @@
 		        $(this).css("background-color", "");
 		        $(this).css("border-color", "#9B9B9B");
 		        $(this).css("color", "#9B9B9B");
-
-		        
 		    });
 		});
 		</script>
 
+		<script>
+		$(document).ready(function(){
+ 			if (Cookies.get('currentState') == 'entered'){
+           		$('.body-container').css("display", "");
+           		$('header').css("display", "");
+           		$('#div1').css("display", "none");
+       		}
+		});
+		</script>
+
+
 		<!-- fades out the entrance design on click -->
 		<script>
 		$(document).ready(function(){
-        	$("a").click(function(e){
+        	$("#enterSite").click(function(e){
         		//var href = $(this).attr('href');
+        		Cookies.set('currentState', 'entered') ;
             	e.preventDefault();
        			$('#div1').fadeOut('3000') ;
        			$('header').fadeIn('slow') ;
        			$('.body-container').fadeIn('slow') ;
-       			$("a").unbind('click');
+       			console.log ("lmao") ;
+       			$("#enterSite").unbind('click');
 		   });
 		});
 		</script>
-
-		<!--Remaining section-->
-		<!--<script> 
-		$(function(){
-			//references the header id
-		  $("#header").load("header.html"); 
-		  //$("#footer").load("footer.html"); 
-		});
-		</script>-->
 	</body>
 </html>
