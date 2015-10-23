@@ -9,14 +9,13 @@
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>	
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<!--<div id="header" style="display:none"></div>-->
-	</head>
-
-	<body>
-
 		<header style="display:none;">
 			<?php include("header.php"); ?>
 		</header>
 
+	</head>
+
+	<body>
 		<div class="body-container" style="display:none">
 			<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
@@ -40,7 +39,7 @@
 
 		<!-- on hover will change elements, off hover is described in the second function-->
 		<!--change this later to use css instead of js-->
-		<script>
+		<!--<script>
 		$(document).ready(function(){
 		    $("#enterSite").hover(function(){
 		        $(this).css("background-color", "pink");
@@ -52,7 +51,7 @@
 		        $(this).css("color", "#9B9B9B");
 		    });
 		});
-		</script>
+		</script>-->
 
 		<script>
 		$(document).ready(function(){

@@ -47,7 +47,8 @@
   margin: auto;
   position: relative; }
   .header-nav ul {
-    background-color: #DFF5E0;
+    border-bottom: 3px solid black;
+    border-top: 3px double #9B9B9B;
     text-align: center;
     margin-left: auto;
     margin-right: auto; }
@@ -68,15 +69,15 @@
     text-decoration: none; }
   .header-nav a {
     text-decoration: none;
-    color: #9B9B9B;
-    -webkit-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out; }
+    color: black;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
   .header-nav a:hover {
     border: solid 3px #ffffff;
     width: 30px;
     color: #ffffff;
     padding: 3px;
-    background: pink;
+    background: black;
     margin-right: 9px; }
 
 .body-container {
@@ -93,17 +94,26 @@
   position: relative;
   width: 25%; }
   .contact-form h2 {
-    color: #9B9B9B; }
+    color: black; }
   .contact-form .section label {
     display: inline-block;
     float: left;
     width: 100px;
     font-size: 20px;
-    color: #9B9B9B; }
+    color: black; }
   .contact-form .section input, .contact-form .section textarea {
     vertical-align: top;
     width: 100%;
     height: 2em; }
+  .contact-form button {
+    border: 2px solid black;
+    background: none;
+    padding: 5px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+  .contact-form button:hover {
+    background: black;
+    color: white; }
 
 #c {
   position: absolute;
