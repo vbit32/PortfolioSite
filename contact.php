@@ -6,6 +6,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
 		<!--<script src="splash_animation.js"></script>	-->
 		<script type="text/javascript"></script>
+		<script type="text/javascript" src="js/form_validation.js"></script>
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<!--<div id="header" style="display:none"></div>-->
 		<header>
@@ -15,32 +16,39 @@
 
 	<body>
 		<div class="body-container">
-			<form class="contact-form" action="/my-handling-form-page" method="post">
+			<form id="contact" class="contact-form" action="server_side_validation.php" method="post">
 				<h2> Contact Me </h2>
-		    <div class="section">
-		        <label for="name">Name:</label>
-		        <input type="text" id="name" />
-		    </div>
-		    <br>
-		    <div class="section">
-		    	<label for="mail">E-mail:</label>
-		        <input type="email" id="mail" />
-		    </div>
-		    <br>
-		    <div class="section">
-		    	<label for="subject">Subject:</label>
-		        <input type="text" id="subject" />
-		    </div>
-		    <br>
-		    <div class="section">
-		        <label for="msg">Message:</label>
-		        <textarea id="msg"></textarea>
-		    </div>
-		    <br>
-		    <div class="button">
-		        <button type="submit">submit.</button>
-		    </div>
-		</form>
+				<!--Name-->
+			    <div class="section">
+			        <label for="name">Name:</label>
+			        <input type="text" id="name" name="name" />
+					<span class="error">This field is required</span>
+			    </div>
+			    <br>
+			    <!--Email-->
+			    <div class="section">
+			    	<label for="mail">E-mail:</label>
+			        <input type="email" id="mail" name="mail" />
+			        <span class="error">A valid email address is required</span>	
+			    </div>
+			    <br>
+			    <!--Subject-->
+			    <div class="section">
+			    	<label for="subject">Subject:</label>
+			        <input type="text" id="subject" name="subject" />
+			    </div>
+			    <br>
+			    <!--Message-->
+			    <div class="section">
+			        <label for="msg">Message:</label>
+			        <textarea id="msg" name="msg"></textarea>
+			        <span class="error">This field is required</span>	
+			    </div>
+			    <br>
+			    <div class="button" id="submit">
+			        <button type="submit">submit.</button>
+			    </div>
+			</form>
 		</div>
 
 		<!--Content-->
