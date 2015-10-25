@@ -7,15 +7,17 @@
 		<!--<script src="splash_animation.js"></script>	-->
 		<script type="text/javascript"></script>
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>	
+		<script src="/js/manage_cookies.js"></script>	
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<!--<div id="header" style="display:none"></div>-->
-		<header style="display:none;">
-			<?php include("header.php"); ?>
-		</header>
 
 	</head>
 
 	<body>
+		<h1 class="title"><a id="title1" href="index.php">VBIT32</a></h1>
+		<header style="display:none;">
+			<?php include("header.php"); ?>
+		</header>
 		<div class="body-container" style="display:none">
 			<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
@@ -29,8 +31,7 @@
 
 		<!--Content-->
 		<!--this shows first, then fades out-->
-		<div id="div1" class="start-content">
-		  	<h1>Valerie Bay</h1>
+		<div id="splash" class="splash">
 		  	<p>Front-End Developer</p>
 		  	<p>Illustrator</p>
 		  	<p>Weeaboo</p>
@@ -52,13 +53,17 @@
 		    });
 		});
 		</script>-->
-
 		<script>
 		$(document).ready(function(){
  			if (Cookies.get('currentState') == 'entered'){
            		$('.body-container').css("display", "");
            		$('header').css("display", "");
-           		$('#div1').css("display", "none");
+           		$('#splash').css("display", "none");
+       		}
+       		else {
+       			$('.body-container').css("display", "none");
+           		$('header').css("display", "none");
+           		$('#splash').css("display", "");
        		}
 		});
 		</script>
@@ -71,9 +76,10 @@
         		//var href = $(this).attr('href');
         		Cookies.set('currentState', 'entered') ;
             	e.preventDefault();
-       			$('#div1').fadeOut('3000') ;
-       			$('header').fadeIn('slow') ;
-       			$('.body-container').fadeIn('slow') ;
+       			$('#splash').fadeOut('3000') ;
+       			$('header').slideDown('slow','swing', function(){
+					$('.body-container').fadeIn('slow') ;
+       			});
        			console.log ("lmao") ;
        			$("#enterSite").unbind('click');
 		   });
