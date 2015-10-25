@@ -16,6 +16,17 @@
     src: url(../fonts/Milano_regular.ttf);
     font-weight:400;
 }
+
+@font-face {
+    font-family: Edition;
+    src: url(../fonts/EDITION_.TTF);
+}
+
+@font-face {
+    font-family: NewCicle;
+    src: url(../fonts/NewCicleFina.ttf);
+    font-weight:900;
+}
 .start-content {
 	position: absolute;
   	top: 50%;
@@ -111,7 +122,7 @@
     width: 60%;
 
     p {
-    	font-family: Milano;
+    	font-family: NewCicle;
     	padding: 10px 30px;
     }
 }
