@@ -10,6 +10,10 @@
 				<li id="li2"><a href="about.php">About</a></li>
 				<li id="li3"><a href="ValerieBay_Resume.docx">Resume</a></li>
 				<li id="li4"><a href="contact.php">Contact</a></li>
+				<div class="btn-group">
+					<img src="images/GitHubBlack.png">
+					<img src="images/LinkedInBlack.png">
+				</div>
 			</ul>
 		</nav>	
 
