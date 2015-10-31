@@ -11,8 +11,8 @@
 				<li id="li3"><a href="ValerieBay_Resume.docx">Resume</a></li>
 				<li id="li4"><a href="contact.php">Contact</a></li>
 				<div class="btn-group">
-					<img src="images/GitHubBlack.png">
-					<img src="images/LinkedInBlack.png">
+					<img id="btn1" src="images/GitHubBlack.png">
+					<img id="btn2" src="images/LinkedInBlack.png">
 				</div>
 			</ul>
 		</nav>	
@@ -25,6 +25,18 @@
 	        		window.location = link;
 	    		});
 			});
+		</script>
+
+		<script>
+		$("#btn1").hover(function(event){
+			$(this).css("background-image", "url(images/GitHubWhite.png)");
+		});
+		</script>
+
+		<script>
+		$("#btn2").hover(function(event){
+			$(this).css('background-image', "url(images/LinkedInWhite.png)";
+		});
 		</script>
 	</body>
 </html>
