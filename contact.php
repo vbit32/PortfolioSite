@@ -21,7 +21,7 @@
 		</header>
 		<div class="body-container">
 			<div class="row">
-				<form id="contact" class="contact-form col-xs-8" action="server_side_validation.php" method="post">
+				<form id="contact" class="contact-form col-xs-8" action="server_side_validation.php" method="POST">
 					<h2> Contact Me </h2>
 					<!--Name-->
 				    <div class="section">

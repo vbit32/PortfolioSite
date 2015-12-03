@@ -6,7 +6,7 @@
 	<body>
 		<nav class="header-nav">
 			<ul>
-				<li id ="li1"><a href="index.php">Home</a></li>
+				<li id ="li1"><a href="index.php">Work</a></li>
 				<li id="li2"><a href="about.php">About</a></li>
 				<li id="li3"><a href="ValerieBay_Resume.docx">Resume</a></li>
 				<li id="li4"><a href="contact.php">Contact</a></li>
@@ -35,7 +35,7 @@
 
 		<script>
 		$("#btn2").hover(function(event){
-			$(this).css('background-image', "url(images/LinkedInWhite.png)";
+			$(this).css('background-image', "url(images/LinkedInWhite.png)");
 		});
 		</script>
 	</body>

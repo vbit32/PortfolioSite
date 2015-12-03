@@ -18,6 +18,9 @@
 @font-face {
   font-family: NewCicle;
   src: url(../fonts/NewCicleGordita.ttf); }
+@font-face {
+  font-family: LongTall;
+  src: url(../fonts/LongTall.ttf); }
 .splash {
   position: absolute;
   top: 50%;
@@ -130,7 +133,6 @@
 .body-container {
   border: 5px double #FFF798;
   margin: auto;
-  padding-bottom: 2%;
   width: 60%; }
   .body-container p {
     font-family: NewCicle;
@@ -141,6 +143,7 @@
   margin: auto;
   position: relative;
   width: 66%;
+  margin-bottom: 2%;
   font-family: Milano; }
   .contact-form h2 {
     color: black; }
@@ -185,5 +188,19 @@
 #c {
   position: absolute;
   width: 100%; }
+
+.work-boxes {
+  height: 42%;
+  width: 44%;
+  position: relative;
+  padding-top: 14%;
+  margin: 3%;
+  text-align: center;
+  border: 1px solid white;
+  background-color: #FFB6B6; }
+  .work-boxes p {
+    font-size: 40px;
+    font-family: Milano;
+    color: white; }
 
 /*# sourceMappingURL=base.css.map */

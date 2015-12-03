@@ -26,6 +26,12 @@
     font-family: NewCicle;
     src: url(../fonts/NewCicleGordita.ttf);
 }
+
+@font-face {
+    font-family: LongTall;
+    src: url(../fonts/LongTall.ttf);
+}
+
 .splash {
 	position: absolute;
   	top: 50%;
@@ -165,7 +171,6 @@
 .body-container {
 	border: 5px double $primary-yellow;
     margin: auto;
-    padding-bottom: 2%;
     width: 60%;
 
     p {
@@ -179,6 +184,7 @@
 	margin: auto;
 	position: relative;
 	width: 66%;
+	margin-bottom: 2%;
 	font-family: Milano;
 
 	h2 {
@@ -239,4 +245,21 @@
 #c {
 	position:absolute;
   	width:100%;
+}
+
+.work-boxes {
+	height: 42%;
+	width: 44%;
+	position: relative;
+	padding-top: 14%;
+	margin: 3%;
+	text-align: center;
+	border: 1px solid white;
+	background-color: $primary-red;
+
+	p {
+		font-size: 40px;
+		font-family: Milano;
+		color: white;
+	}
 }

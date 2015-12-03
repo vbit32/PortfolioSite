@@ -9,6 +9,7 @@
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>	
 		<script src="/js/manage_cookies.js"></script>	
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
+		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
 
 	</head>
@@ -19,13 +20,14 @@
 			<?php include("header.php"); ?>
 		</header>
 		<div class="body-container" style="display:none">
-			<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-				esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
-			<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-				esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>	
-				<p> lol this is for a test commit alright </p>
+			<div class="row" style="margin:0">
+				<div class="col-xs-6 work-boxes">
+						<p><b> Artwork </b></p>
+				</div>
+				<div class="col-xs-6 work-boxes">
+						<p><b> Development </b></p>
+				</div>
+			</div>
 		
 		</div>
 
