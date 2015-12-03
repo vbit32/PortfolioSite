@@ -21,10 +21,10 @@
 		</header>
 		<div class="body-container" style="display:none">
 			<div class="row" style="margin:0">
-				<div class="col-xs-6 work-boxes">
+				<div class="col-xs-6 work-boxes" id="art">
 						<p><b> Artwork </b></p>
 				</div>
-				<div class="col-xs-6 work-boxes">
+				<div class="col-xs-6 work-boxes" id="dev">
 						<p><b> Development </b></p>
 				</div>
 			</div>

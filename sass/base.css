@@ -196,11 +196,16 @@
   padding-top: 14%;
   margin: 3%;
   text-align: center;
-  border: 1px solid white;
-  background-color: #FFB6B6; }
+  border: 1px solid white; }
   .work-boxes p {
     font-size: 40px;
     font-family: Milano;
     color: white; }
+
+#dev {
+  background-color: #C7C6F1; }
+
+#art {
+  background-color: #FFB6B6; }
 
 /*# sourceMappingURL=base.css.map */

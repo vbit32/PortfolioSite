@@ -255,11 +255,17 @@
 	margin: 3%;
 	text-align: center;
 	border: 1px solid white;
-	background-color: $primary-red;
 
 	p {
 		font-size: 40px;
 		font-family: Milano;
 		color: white;
 	}
+
+}
+#dev {
+	background-color: $light-primary-blue;
+}
+#art {
+	background-color: $primary-red;
 }
