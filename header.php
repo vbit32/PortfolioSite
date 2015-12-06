@@ -6,10 +6,10 @@
 	<body>
 		<nav class="header-nav">
 			<ul>
-				<li id ="li1"><a href="index.php">Work</a></li>
-				<li id="li2"><a href="about.php">About</a></li>
-				<li id="li3"><a href="ValerieBay_Resume.docx">Resume</a></li>
-				<li id="li4"><a href="contact.php">Contact</a></li>
+				<li id ="li1"><a href="index.php"><b>WORK</b></a></li>
+				<li id="li2"><a href="about.php">ABOUT</a></li>
+				<li id="li3"><a href="ValerieBay_Resume.docx">RESUME</a></li>
+				<li id="li4"><a href="contact.php">CONTACT</a></li>
 				<div class="btn-group">
 					<img id="btn1" src="images/GitHubBlack.png">
 					<img id="btn2" src="images/LinkedInBlack.png">

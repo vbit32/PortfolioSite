@@ -15,17 +15,17 @@
 	</head>
 
 	<body>
-		<h1 class="title"><a id="title1" href="index.php">VBIT32</a></h1>
+		<h1 class="title"><a id="title1" href="index.php">V B I T 3 2</a></h1>
 		<header style="display:none;">
 			<?php include("header.php"); ?>
 		</header>
 		<div class="body-container" style="display:none">
 			<div class="row" style="margin:0">
 				<div class="col-xs-6 work-boxes" id="art">
-						<p><b> Artwork </b></p>
+						<p> A r t w o r k </p>
 				</div>
 				<div class="col-xs-6 work-boxes" id="dev">
-						<p><b> Development </b></p>
+						<p> D e v e l o p m e n t</p>
 				</div>
 			</div>
 		

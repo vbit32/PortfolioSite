@@ -21,6 +21,12 @@
 @font-face {
   font-family: LongTall;
   src: url(../fonts/LongTall.ttf); }
+@font-face {
+  font-family: Ikaros;
+  src: url(../fonts/Ikaros.otf); }
+@font-face {
+  font-family: Fox;
+  src: url(../fonts/Fox.ttf); }
 .splash {
   position: absolute;
   top: 50%;
@@ -32,7 +38,7 @@
   text-align: center;
   opacity: 0.9;
   filter: alpha(opacity=90);
-  border-right: 9px solid #FFF798;
+  border-right: 9px solid #FFEB00;
   border-bottom: 9px solid #8D8BDC;
   border-top: 3px dotted #717171;
   border-left: 3px dotted #717171; }
@@ -63,7 +69,7 @@
   position: relative;
   text-align: center;
   font-size: 90px;
-  font-family: Milano;
+  font-family: LongTall;
   margin: auto;
   padding-top: 14px;
   padding-bottom: 10px;
@@ -89,10 +95,11 @@
     vertical-align: middle; }
   .header-nav li {
     color: #9B9B9B;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
-    font-family: Milano;
+    font-family: Fox;
     margin: 10px;
+    padding-top: 5px;
     text-align: center;
     display: inline-block; }
   .header-nav .btn-group {
@@ -131,12 +138,13 @@
     margin-right: 9px; }
 
 .body-container {
-  border: 5px double #FFF798;
+  border: 7px double #FFEB00;
   margin: auto;
   width: 60%; }
   .body-container p {
     font-family: NewCicle;
-    padding: 10px 30px; }
+    padding: 10px 30px;
+    font-size: 20px; }
 
 .contact-form {
   text-align: center;
@@ -144,7 +152,7 @@
   position: relative;
   width: 66%;
   margin-bottom: 2%;
-  font-family: Milano; }
+  font-family: Fox; }
   .contact-form h2 {
     color: black; }
   .contact-form .section {
@@ -193,19 +201,19 @@
   height: 42%;
   width: 44%;
   position: relative;
-  padding-top: 14%;
+  padding-top: 12%;
   margin: 3%;
   text-align: center;
   border: 1px solid white; }
   .work-boxes p {
-    font-size: 40px;
-    font-family: Milano;
+    font-size: 80px;
+    font-family: LongTall;
     color: white; }
 
 #dev {
   background-color: #C7C6F1; }
 
 #art {
-  background-color: #FFB6B6; }
+  background-color: #FFC8C8; }
 
 /*# sourceMappingURL=base.css.map */

@@ -32,6 +32,18 @@
     src: url(../fonts/LongTall.ttf);
 }
 
+@font-face {
+    font-family: Ikaros;
+    src: url(../fonts/Ikaros.otf);
+}
+
+@font-face {
+    font-family: Fox;
+    src: url(../fonts/Fox.ttf);
+}
+
+
+
 .splash {
 	position: absolute;
   	top: 50%;
@@ -80,7 +92,7 @@
 		position: relative;
     	text-align: center;
 		font-size: 90px ;
-		font-family: Milano;
+		font-family: LongTall;
 		margin: auto;
 		padding-top:14px;
 		padding-bottom:10px;
@@ -112,10 +124,11 @@
 
     li {
 		color: $soft-grey ;
-		font-size: 25px;
+		font-size: 20px;
 		font-weight: 100;
-		font-family: Milano;
+		font-family: Fox;
 		margin: 10px;
+		padding-top: 5px;
 		text-align: center;
 		display: inline-block;
     }
@@ -169,13 +182,14 @@
 }
 
 .body-container {
-	border: 5px double $primary-yellow;
+	border: 7px double $primary-yellow;
     margin: auto;
     width: 60%;
 
     p {
     	font-family: NewCicle;
     	padding: 10px 30px;
+    	font-size:20px;
     }
 }
 
@@ -185,7 +199,7 @@
 	position: relative;
 	width: 66%;
 	margin-bottom: 2%;
-	font-family: Milano;
+	font-family: Fox;
 
 	h2 {
 		color: black;
@@ -251,14 +265,14 @@
 	height: 42%;
 	width: 44%;
 	position: relative;
-	padding-top: 14%;
+	padding-top: 12%;
 	margin: 3%;
 	text-align: center;
 	border: 1px solid white;
 
 	p {
-		font-size: 40px;
-		font-family: Milano;
+		font-size: 80px;
+		font-family: LongTall;
 		color: white;
 	}
 
@@ -267,5 +281,5 @@
 	background-color: $light-primary-blue;
 }
 #art {
-	background-color: $primary-red;
+	background-color: $light-primary-red;
 }

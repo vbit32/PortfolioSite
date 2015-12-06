@@ -22,30 +22,30 @@
 		<div class="body-container">
 			<div class="row">
 				<form id="contact" class="contact-form col-xs-8" action="server_side_validation.php" method="POST">
-					<h2> Contact Me </h2>
+					<h2><b> CONTACT ME </b></h2>
 					<!--Name-->
 				    <div class="section">
-				        <label for="name">Name:</label>
+				        <label for="name">NAME:</label>
 				        <input type="text" id="name" name="name" />
 						<span class="error">This field is required</span>
 				    </div>
 				    <br>
 				    <!--Email-->
 				    <div class="section">
-				    	<label for="mail">E-mail:</label>
+				    	<label for="mail">E-MAIL:</label>
 				        <input type="email" id="mail" name="mail" />
 				        <span class="error">A valid email address is required</span>	
 				    </div>
 				    <br>
 				    <!--Subject-->
 				    <div class="section">
-				    	<label for="subject">Subject:</label>
+				    	<label for="subject">SUBJECT:</label>
 				        <input type="text" id="subject" name="subject" />
 				    </div>
 				    <br>
 				    <!--Message-->
 				    <div class="section">
-				        <label for="msg">Message:</label>
+				        <label for="msg">MESSAGE:</label>
 				        <textarea id="msg" name="msg"></textarea>
 				        <span class="error">This field is required</span>	
 				    </div>
