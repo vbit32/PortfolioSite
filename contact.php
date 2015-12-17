@@ -56,7 +56,10 @@
 				</form>
 				<div class="col-xs-4">
 					<p> Hello! </p><br>
-					<p> Here's a description about how you can contact me for jobs and stuff, yo</p>
+					<p> Please feel free to contact me for commisions, or for inquiry about my development or art work!</p>
+					<p> You may also contact me directly at my email address or phone number:</p>
+					<p> Email: vbit32@gmail.com</p>
+					<p> Phone: (954) 804 7399</p>
 
 				</div>
 			</div>

@@ -34,12 +34,12 @@
   padding: 100px;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
-  background: #FFB6B6;
+  background: #FF7878;
   text-align: center;
   opacity: 0.9;
   filter: alpha(opacity=90);
   border-right: 9px solid #FFEB00;
-  border-bottom: 9px solid #8D8BDC;
+  border-bottom: 9px solid #706CFF;
   border-top: 3px dotted #717171;
   border-left: 3px dotted #717171; }
   .splash h1 {
@@ -86,8 +86,8 @@
   clear: both;
   overflow: hidden; }
   .header-nav ul {
-    border-bottom: 11px solid #FFB6B6;
-    border-top: 4px double #8D8BDC;
+    border-bottom: 11px solid #FF7878;
+    border-top: 4px double #706CFF;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -165,13 +165,18 @@
       font-size: 15px;
       font-weight: 900;
       color: black; }
-    .contact-form .section input, .contact-form .section textarea {
+    .contact-form .section input {
       vertical-align: top;
       width: 100%;
       height: 2em;
       border: 2px solid #D4D1D1; }
+    .contact-form .section textarea {
+      vertical-align: top;
+      width: 100%;
+      height: 6em;
+      border: 2px solid #D4D1D1; }
     .contact-form .section input.invalid, .contact-form .section textarea.invalid {
-      border: 2px dotted #FFB6B6; }
+      border: 2px dotted #FF7878; }
     .contact-form .section input.valid, .contact-form .section textarea.valid {
       border: 2px solid #A3D8A3; }
     .contact-form .section .error {
@@ -211,9 +216,52 @@
     color: white; }
 
 #dev {
-  background-color: #C7C6F1; }
+  background-color: #706CFF;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out; }
 
 #art {
-  background-color: #FFC8C8; }
+  background-color: #FF7878; }
+
+#dev:hover {
+  background-color: black; }
+
+#art:hover {
+  animation: myfirst 3s;
+  -moz-animation: myfirst 3s infinite;
+  /* Firefox */
+  -webkit-animation: myfirst 3s infinite;
+  /* Safari and Chrome */ }
+@-moz-keyframes myfirst /* Firefox */ {
+  0% {
+    background: #FF7878; }
+  20% {
+    background: #FFC8C8; }
+  50% {
+    background: #ffbc78; }
+  65% {
+    background: #aedf68; }
+  85% {
+    background: #8bcaf9; }
+  100% {
+    background: #FF7878; } }
+@-webkit-keyframes myfirst /* Safari and Chrome */ {
+  0% {
+    background: #FF7878; }
+  20% {
+    background: #FFC8C8; }
+  50% {
+    background: #ffbc78; }
+  65% {
+    background: #aedf68; }
+  85% {
+    background: #8bcaf9; }
+  100% {
+    background: #FF7878; } }
+.picture-holder {
+  width: 27%;
+  height: 30%;
+  border: 1px solid black;
+  margin: 3%; }
 
 /*# sourceMappingURL=base.css.map */

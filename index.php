@@ -21,9 +21,11 @@
 		</header>
 		<div class="body-container" style="display:none">
 			<div class="row" style="margin:0">
-				<div class="col-xs-6 work-boxes" id="art">
-						<p> A r t w o r k </p>
-				</div>
+				<a href="gallery.php">
+					<div class="col-xs-6 work-boxes" id="art">
+							<p> A r t w o r k </p>
+					</div>
+				</a>
 				<div class="col-xs-6 work-boxes" id="dev">
 						<p> D e v e l o p m e n t</p>
 				</div>
@@ -70,6 +72,16 @@
 		});
 		</script>
 
+		<script>
+		$("#art").hover(
+		    function(){
+		        $("#art").animate({'backgroundColor': '#f5f5f5'},400);
+		    },
+		    function(){
+		        $(this).animate({'backgroundColor': '#000'},400);
+		    }
+		); 
+		</script>
 
 		<!-- fades out the entrance design on click -->
 		<script>
