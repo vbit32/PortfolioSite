@@ -14,7 +14,7 @@
 	</head>
 
 	<body>
-		<h1 class="title" ><a id="title1" href="index.php">VBIT32</a></h1>
+		<h1 class="title" ><a id="title1" href="index.php">V B I T 3 2</a></h1>
 		<header>
 			<?php include("header.php"); ?>
 		</header>
@@ -45,7 +45,7 @@
 		<script>
 		$(document).ready(function(){
 			console.log("this is for a test");
-			$(".body-container").fadeIn("slow");
+			$(".body-container").fadeIn();
 		});
 		</script>
 	</body>

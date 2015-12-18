@@ -48,29 +48,30 @@
 	position: absolute;
   	top: 50%;
   	left: 50%;
-  	padding: 100px;  	/* bring your own prefixes */
+  	padding: 50px;  	/* bring your own prefixes */
  	transform: translate(-50%, -50%);
  	background: $primary-red;
  	text-align: center;
  	opacity: 0.9;
     filter: alpha(opacity=90);
-    border-right: 9px solid $primary-yellow;
-    border-bottom: 9px solid $primary-blue;
+    border-right: 19px solid $primary-yellow;
+    border-bottom: 19px solid $primary-blue;
     border-top: 3px dotted $soft-black;
     border-left: 3px dotted $soft-black;
 
+	//not using h1 right now
 	h1 {
 		font-size: 65px ;
-		font-family: Milano;
+		font-family: Fox;
 		margin-top: 0;
 		-webkit-font-smoothing: antialiased;
 		font-weight: 100;
 		margin-bottom: 0;
-		color: $softer-black;
+		color: #ffffff;
 	}
 	p {
 		font-size: 20px;
-		color: $softer-black;
+		color:#ffffff;
 	}
 	a {
 		display: block;
@@ -79,12 +80,12 @@
 		font-weight: 100;
 		padding: 15px;
 		text-decoration: none;
-		border: 1px solid $softer-black;
-		color: $softer-black;
+		border: 1px solid #ffffff;
+		color: #ffffff;
 	}
 
 	p, a{
-		font-family: NewCicle;
+		font-family: Fox;
 	}
 }
 
@@ -145,20 +146,14 @@
 
 	img {
 		vertical-align:middle;
-		color: black;
 		padding:2px;
 		padding-top: 6%;
 		-webkit-transition: 0.2s ease-in-out;
 		transition: 0.2s ease-in-out;
 	}
 
-	img:hover {
-		border: solid 3px #ffffff;
-	    width: 30px;
-	    color:#ffffff;
-	    padding: 3px;
-	    background: black;
-	    margin-right: 9px;
+	img:hover{
+
 	}
 
     a {
@@ -174,10 +169,10 @@
 	a:hover {
 	    //border: solid 1px #ffffff;
 	    width: 30px;
-	    color:#ffffff;
 	    padding: 3px;
 	    background: black;
 	    margin-right: 9px;
+	    color:white;
 	}
 }
 

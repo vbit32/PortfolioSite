@@ -28,14 +28,14 @@
 		</script>
 
 		<script>
-		$("#btn1").hover(function(event){
-			$(this).css("background-image", "url(images/GitHubWhite.png)");
+		$('img#btn1').hover(function(event){
+			$(this).attr("src", "images/GitHubWhite.png");
 		});
 		</script>
 
 		<script>
-		$("#btn2").hover(function(event){
-			$(this).css('background-image', "url(images/LinkedInWhite.png)");
+		$('img#btn2').hover(function(event){
+			$(this).attr("src", "images/LinkedInWhite.png");
 		});
 		</script>
 	</body>

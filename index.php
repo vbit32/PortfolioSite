@@ -36,10 +36,10 @@
 		<!--Content-->
 		<!--this shows first, then fades out-->
 		<div id="splash" class="splash">
-		  	<p>Front-End Developer</p>
-		  	<p>Illustrator</p>
-		  	<p>Weeaboo</p>
-		  	<a id="enterSite" href="">enter site</a>
+		  	<p><b>FRONT-END DEVELOPER</b></p>
+		  	<p><b>ILLUSTRATOR</b></p>
+		  	<p><b> MEME CONNOISSEUR </p>
+		  	<a id="enterSite" href=""><b>ENTER</b></a>
 		</div>
 
 		<!-- on hover will change elements, off hover is described in the second function-->

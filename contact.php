@@ -15,13 +15,13 @@
 	</head>
 
 	<body>
-		<h1 class="title" ><a id="title1" href="index.php">VBIT32</a></h1>
+		<h1 class="title" ><a id="title1" href="index.php">V B I T 3 2</a></h1>
 		<header>
 			<?php include("header.php"); ?>
 		</header>
 		<div class="body-container">
 			<div class="row">
-				<form id="contact" class="contact-form col-xs-8" action="server_side_validation.php" method="POST">
+				<form id="contact" class="contact-form col-xs-8" method="POST">
 					<h2><b> CONTACT ME </b></h2>
 					<!--Name-->
 				    <div class="section">
@@ -90,6 +90,29 @@
            		$('#splash').css("display", "none");
        		}
 		});
+		</script>
+
+		<script>
+			$("#submit").on("click", function() {
+				name = $("#name").serialize();
+			    email = $("#mail").serialize();
+			    subject = $("#subject").serialize();
+			    message = $("#msg").serialize();
+
+			    $.ajax({
+			        url: "//formspree.io/valerie.bay2@gmail.com", 
+			        method: "POST",
+			        data: {
+			        		name: name,
+			        		email: email,
+			        		subject: subject,
+			        		message: message
+			        	  },
+			        dataType: "json"
+			    });
+			    alert('Thanks for the email, we\'ll be in touch promptly.');
+			    return false;
+			});
 		</script>
 	</body>
 </html>

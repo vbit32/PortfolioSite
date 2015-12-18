@@ -14,7 +14,7 @@
 	</head>
 
 	<body>
-		<h1 class="title" ><a id="title1" href="index.php">VBIT32</a></h1>
+		<h1 class="title" ><a id="title1" href="index.php">V B I T 3 2</a></h1>
 		<header>
 			<?php include("header.php"); ?>
 		</header>
@@ -24,7 +24,7 @@
 						<p><b> put a picture here </b></p>
 				</div>
 				<div class="col-xs-9">
-						<p><b> My Name is Valerie Bay. I am Computer Science student/ artist from Miami Florida.
+						<p><b> My Name is Valerie Bay. I am a Computer Science student/ artist currently residing in Miami Florida.
 							ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et 
 							quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
 							 qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum

@@ -31,28 +31,28 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 100px;
+  padding: 50px;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
   background: #FF7878;
   text-align: center;
   opacity: 0.9;
   filter: alpha(opacity=90);
-  border-right: 9px solid #FFEB00;
-  border-bottom: 9px solid #706CFF;
+  border-right: 19px solid #FFEB00;
+  border-bottom: 19px solid #706CFF;
   border-top: 3px dotted #717171;
   border-left: 3px dotted #717171; }
   .splash h1 {
     font-size: 65px;
-    font-family: Milano;
+    font-family: Fox;
     margin-top: 0;
     -webkit-font-smoothing: antialiased;
     font-weight: 100;
     margin-bottom: 0;
-    color: #404040; }
+    color: #ffffff; }
   .splash p {
     font-size: 20px;
-    color: #404040; }
+    color: #ffffff; }
   .splash a {
     display: block;
     margin-top: 45px;
@@ -60,10 +60,10 @@
     font-weight: 100;
     padding: 15px;
     text-decoration: none;
-    border: 1px solid #404040;
-    color: #404040; }
+    border: 1px solid #ffffff;
+    color: #ffffff; }
   .splash p, .splash a {
-    font-family: NewCicle; }
+    font-family: Fox; }
 
 .title {
   position: relative;
@@ -111,18 +111,10 @@
     display: inline-block; }
   .header-nav img {
     vertical-align: middle;
-    color: black;
     padding: 2px;
     padding-top: 6%;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out; }
-  .header-nav img:hover {
-    border: solid 3px #ffffff;
-    width: 30px;
-    color: #ffffff;
-    padding: 3px;
-    background: black;
-    margin-right: 9px; }
   .header-nav a {
     text-decoration: none;
     color: black;
@@ -132,10 +124,10 @@
     font-weight: 900; }
   .header-nav a:hover {
     width: 30px;
-    color: #ffffff;
     padding: 3px;
     background: black;
-    margin-right: 9px; }
+    margin-right: 9px;
+    color: white; }
 
 .body-container {
   border: 7px double #FFEB00;
