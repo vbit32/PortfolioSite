@@ -102,13 +102,12 @@
 			    $.ajax({
 			        url: "//formspree.io/valerie.bay2@gmail.com", 
 			        method: "POST",
-
 			        data: {
-			        		name: name,
-			        		email: email,
-			        		subject: subject,
-			        		message: message
-			        	  },
+				 			name : $('#name').val(),
+				            email : $('#mail').val(),
+				            subject : $('#subject').val(),
+				            message : $('#msg').val()
+				        },
 			        dataType: "json"
 			    });
 			    alert('Thanks for the email, we\'ll be in touch promptly.');
