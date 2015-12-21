@@ -124,9 +124,9 @@
     font-weight: 900; }
   .header-nav a:hover {
     width: 30px;
-    padding: 3px;
+    padding: 6px;
     background: black;
-    margin-right: 9px;
+    margin-right: 13px;
     color: white; }
 
 .body-container {

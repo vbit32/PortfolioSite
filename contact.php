@@ -102,6 +102,7 @@
 			    $.ajax({
 			        url: "//formspree.io/valerie.bay2@gmail.com", 
 			        method: "POST",
+
 			        data: {
 			        		name: name,
 			        		email: email,
