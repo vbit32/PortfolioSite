@@ -3,7 +3,7 @@
 	<!--Title-->
 	<!--Menu stuff-->
 	<!--insert scripts here to load header and footer-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+		<script src="/bower_components/jquery/dist/jquery.min.js"></script>	
 		<!--<script src="splash_animation.js"></script>	-->
 		<script type="text/javascript"></script>
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>	

@@ -34,7 +34,7 @@
 		});
 		$('img#btn1').mouseleave(function(event){
 			$(this).attr("src", "images/GitHubBlack.png");
-			$(this).css("background-color", "transparent");
+			$(this).css("background-color", "transparent")
 		});
 		</script>
 

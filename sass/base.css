@@ -87,7 +87,7 @@
   overflow: hidden; }
   .header-nav ul {
     border-bottom: 11px solid #FF7878;
-    border-top: 4px double #706CFF;
+    border-top: 7px double #706CFF;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -255,5 +255,11 @@
   height: 30%;
   border: 1px solid black;
   margin: 3%; }
+
+.rounded-corners {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px; }
 
 /*# sourceMappingURL=base.css.map */

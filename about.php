@@ -3,7 +3,7 @@
 	<!--Title-->
 	<!--Menu stuff-->
 	<!--insert scripts here to load header and footer-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+		<script src="/bower_components/jquery/dist/jquery.min.js"></script>	
 		<!--<script src="splash_animation.js"></script>	-->
 		<script type="text/javascript"></script>
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>
@@ -24,16 +24,12 @@
 						<p><b> put a picture here </b></p>
 				</div>
 				<div class="col-xs-9">
-						<p><b> My Name is Valerie Bay. I am a Computer Science student/ artist currently residing in Miami Florida.
-							ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et 
-							quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-							 qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
-							  facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi
-							   optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis 
-							   voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut 
-							   officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae
-							    non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
-							     maiores alias consequatur aut perferendis doloribus asperiores repellat.</b></p>
+						<p><b> System.out.println ("hey."); </b></p><br><br>
+
+							<p><b>My name's Valerie Bay, I'm a self-taught artist/illustrator, front-end developer and avid music lover living in South Florida.
+							Throughout all my life living here, I've come to recognize two definitve qualities about myself; One, I don't like the beach. And two,
+							. I've always had an affinity for both the logical and free-spirited aspects of life. 
+						</b></p>
 				</div>
 			</div>
 		</div>

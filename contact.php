@@ -3,7 +3,7 @@
 	<!--Title-->
 	<!--Menu stuff-->
 	<!--insert scripts here to load header and footer-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+		<script src="/bower_components/jquery/dist/jquery.min.js"></script>		
 		<!--<script src="splash_animation.js"></script>	-->
 		<script type="text/javascript"></script>
 		<script type="text/javascript" src="js/form_validation.js"></script>
@@ -41,6 +41,7 @@
 				    <div class="section">
 				    	<label for="subject">SUBJECT:</label>
 				        <input type="text" id="subject" name="subject" />
+				        <span class="error">This field is required</span>
 				    </div>
 				    <br>
 				    <!--Message-->
@@ -50,7 +51,7 @@
 				        <span class="error">This field is required</span>	
 				    </div>
 				    <br>
-				    <div class="button" id="submit">
+				    <div class="button" id="submt">
 				        <button type="submit">submit.</button>
 				    </div>
 				</form>
@@ -92,8 +93,8 @@
 		});
 		</script>
 
-		<script>
-			$("#submit").on("click", function() {
+		<!--<script>
+			/*$("#submit").on("click", function() {
 				name = $("#name").serialize();
 			    email = $("#mail").serialize();
 			    subject = $("#subject").serialize();
@@ -108,11 +109,13 @@
 				            subject : $('#subject').val(),
 				            message : $('#msg').val()
 				        },
-			        dataType: "json"
+			        dataType: "json",
+
 			    });
 			    alert('Thanks for the email, we\'ll be in touch promptly.');
+			    window.location.href = "/index.php";
 			    return false;
-			});
-		</script>
+			});*/
+		</script>-->
 	</body>
 </html>
