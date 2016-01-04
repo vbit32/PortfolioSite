@@ -109,12 +109,6 @@
     margin-right: 3px;
     margin-left: -60px;
     display: inline-block; }
-  .header-nav img {
-    vertical-align: middle;
-    padding: 2px;
-    padding-top: 6%;
-    -webkit-transition: 0.2s ease-in-out;
-    transition: 0.2s ease-in-out; }
   .header-nav a {
     text-decoration: none;
     color: black;
@@ -123,6 +117,57 @@
     transition: 0.3s ease-in-out;
     font-weight: 900; }
   .header-nav a:hover {
+    width: 30px;
+    padding: 6px;
+    background: black;
+    margin-right: 13px;
+    color: white; }
+
+.footer-nav {
+  width: 60%;
+  margin: auto;
+  position: relative;
+  clear: both;
+  overflow: hidden; }
+  .footer-nav ul {
+    margin-top: 9px;
+    border-top: 7px double #FF7878;
+    border-bottom: 5px solid #706CFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    vertical-align: middle; }
+  .footer-nav li {
+    color: #9B9B9B;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: Fox;
+    margin: 10px;
+    padding-top: 5px;
+    float: left;
+    display: inline-block; }
+  .footer-nav .btn-group {
+    float: right;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-right: 3px;
+    margin-left: -60px;
+    display: inline-block; }
+  .footer-nav img {
+    vertical-align: bottom;
+    padding: 2px;
+    padding-top: 6%;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+  .footer-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    font-weight: 900; }
+  .footer-nav a:hover {
     width: 30px;
     padding: 6px;
     background: black;

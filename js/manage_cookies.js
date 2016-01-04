@@ -11,6 +11,7 @@ function bruh(){
 	if (Cookies.get('currentState') == 'entered'){
 		$('.body-container').css("display", "");
 		$('header').css("display", "");
+		$('footer').css("display", "");
 		$('#splash').css("display", "none");
 		console.log("cookie exists") ;
 	}
@@ -18,6 +19,7 @@ function bruh(){
 		console.log("cookie does not exist");
 		$('.body-container').css("display", "none");
 		$('header').css("display", "none");
+		$('footer').css("display", "none");
 		$('#splash').css("display", "");
 	}
 };

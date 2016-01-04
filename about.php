@@ -34,6 +34,9 @@
 			</div>
 		</div>
 
+		<footer>
+			<?php include("footer.php"); ?>
+		</footer>
 		<!--Content-->
 		<!-- on hover will change elements, off hover is described in the second function-->
 		<!--change this later to use css instead of js-->

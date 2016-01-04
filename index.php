@@ -16,9 +16,11 @@
 
 	<body>
 		<h1 class="title"><a id="title1" href="index.php">V B I T 3 2</a></h1>
+
 		<header style="display:none;">
 			<?php include("header.php"); ?>
 		</header>
+		
 		<div class="body-container" style="display:none">
 			<div class="row" style="margin:0">
 				<a href="gallery.php">
@@ -33,6 +35,10 @@
 		
 		</div>
 
+		<footer style="display:none;">
+			<?php include("footer.php"); ?>
+		</footer>
+
 		<!--Content-->
 		<!--this shows first, then fades out-->
 		<div id="splash" class="splash">
@@ -42,31 +48,19 @@
 		  	<a id="enterSite" href=""><b>ENTER</b></a>
 		</div>
 
-		<!-- on hover will change elements, off hover is described in the second function-->
-		<!--change this later to use css instead of js-->
-		<!--<script>
-		$(document).ready(function(){
-		    $("#enterSite").hover(function(){
-		        $(this).css("background-color", "pink");
-		        $(this).css("border-color", "white");
-		        $(this).css("color", "white");
-		        }, function(){
-		        $(this).css("background-color", "");
-		        $(this).css("border-color", "#9B9B9B");
-		        $(this).css("color", "#9B9B9B");
-		    });
-		});
-		</script>-->
+
 		<script>
 		$(document).ready(function(){
  			if (Cookies.get('currentState') == 'entered'){
            		$('.body-container').css("display", "");
            		$('header').css("display", "");
+           		$('footer').css("display", "");
            		$('#splash').css("display", "none");
        		}
        		else {
        			$('.body-container').css("display", "none");
            		$('header').css("display", "none");
+           		$('footer').css("display", "none");
            		$('#splash').css("display", "");
        		}
 		});
@@ -93,6 +87,7 @@
        			$('#splash').fadeOut('3000') ;
        			$('header').slideDown('slow','swing', function(){
 					$('.body-container').fadeIn('slow') ;
+					$('footer').fadeIn('slow') ;
        			});
        			console.log ("lmao") ;
        			$("#enterSite").unbind('click');
