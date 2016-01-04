@@ -22,7 +22,7 @@
 		<div class="body-container">
 			<div class="row">
 				<form id="contact" class="contact-form col-xs-8" method="POST">
-					<h2><b> CONTACT ME </b></h2>
+					<h2> CONTACT </h2>
 					<!--Name-->
 				    <div class="section">
 				        <label for="name">NAME:</label>

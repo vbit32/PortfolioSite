@@ -6,7 +6,7 @@
 	<body>
 		<nav class="footer-nav">
 			<ul>
-				<li id ="li1"><b>Created by Valerie Bay</b></a></li>
+				<li id ="li1"><b>Copyright &copy; 2016 Valerie Bay</b></a></li>
 				<div class="btn-group">
 					<img id="btn1" src="images/GitHubBlack.png">
 					<img id="btn2" src="images/LinkedInBlack.png">

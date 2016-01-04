@@ -26,10 +26,10 @@
 				<div class="col-xs-9">
 						<p><b> System.out.println ("hey."); </b></p><br><br>
 
-							<p><b>My name's Valerie Bay, I'm a self-taught artist/illustrator, front-end developer and avid music lover living in South Florida.
+							<p>My name is Valerie Bay, I am a self-taught artist/illustrator, front-end developer and avid music lover living in South Florida.
 							Throughout all my life living here, I've come to recognize two definitve qualities about myself; One, I don't like the beach. And two,
 							. I've always had an affinity for both the logical and free-spirited aspects of life. 
-						</b></p>
+						</p>
 				</div>
 			</div>
 		</div>

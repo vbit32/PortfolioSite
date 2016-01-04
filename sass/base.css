@@ -16,6 +16,9 @@
   font-family: Edition;
   src: url(../fonts/EDITION_.TTF); }
 @font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSansLight.ttf); }
+@font-face {
   font-family: NewCicle;
   src: url(../fonts/NewCicleGordita.ttf); }
 @font-face {
@@ -130,20 +133,21 @@
   clear: both;
   overflow: hidden; }
   .footer-nav ul {
-    margin-top: 9px;
+    margin-top: 13px;
+    padding-bottom: 2px;
     border-top: 7px double #FF7878;
-    border-bottom: 5px solid #706CFF;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     vertical-align: middle; }
   .footer-nav li {
-    color: #9B9B9B;
+    color: #564E4E;
     font-size: 13px;
     font-weight: 100;
     font-family: Fox;
     margin: 10px;
+    margin-left: -30px;
     padding-top: 5px;
     float: left;
     display: inline-block; }
@@ -179,9 +183,9 @@
   margin: auto;
   width: 60%; }
   .body-container p {
-    font-family: NewCicle;
+    font-family: OpenSans;
     padding: 10px 30px;
-    font-size: 20px; }
+    font-size: 15px; }
 
 .contact-form {
   text-align: center;

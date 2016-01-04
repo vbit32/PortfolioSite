@@ -6,7 +6,7 @@
 	<body>
 		<nav class="header-nav">
 			<ul>
-				<li id ="li1"><a href="index.php"><b>WORK</b></a></li>
+				<li id ="li1"><a href="index.php">WORK</a></li>
 				<li id="li2"><a href="about.php">ABOUT</a></li>
 				<li id="li3"><a href="ValerieBay_Resume.docx">RESUME</a></li>
 				<li id="li4"><a href="contact.php">CONTACT</a></li>
