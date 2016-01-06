@@ -1,15 +1,5 @@
 @import "variables";
 
-.s {
-	background-image: url("shape2.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    background-size:1000px;
-    width:100%;
-    opacity: 0.1;
-    z-index: -5;
-}
 
 @font-face {
     font-family: Milano;
@@ -258,6 +248,8 @@
 	border: 7px double $primary-yellow;
     margin: auto;
     width: 60%;
+     -webkit-backface-visibility: hidden;
+     -webkit-transition-easing: ease-in-out;
 
     p {
     	font-family: OpenSans;

@@ -1,13 +1,3 @@
-.s {
-  background-image: url("shape2.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 1000px;
-  width: 100%;
-  opacity: 0.1;
-  z-index: -5; }
-
 @font-face {
   font-family: Milano;
   src: url(../fonts/Milano_regular.ttf);
@@ -194,7 +184,9 @@
 .body-container {
   border: 7px double #FFEB00;
   margin: auto;
-  width: 60%; }
+  width: 60%;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-easing: ease-in-out; }
   .body-container p {
     font-family: OpenSans;
     padding: 10px 30px;

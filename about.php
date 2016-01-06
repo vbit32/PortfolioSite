@@ -8,7 +8,8 @@
 		<script type="text/javascript"></script>
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>
 		<script src="/js/manage_cookies.js"></script>	
-		<script src="/js/edit_menu_style.js"></script>	
+		<script src="/js/edit_menu_style.js"></script>
+		<script src="/js/page_fade_in.js"></script>	
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
@@ -41,12 +42,5 @@
 		<!-- on hover will change elements, off hover is described in the second function-->
 		<!--change this later to use css instead of js-->
 	
-		<script>
-		$(document).ready(function(){
-			console.log("this is for a test");
-			$('.body-container').fadeIn(1000);
-			$('footer').fadeIn(1000);
-		});
-		</script>
 	</body>
 </html>

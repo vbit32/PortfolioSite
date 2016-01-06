@@ -10,6 +10,7 @@
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>
 		<script src="/js/manage_cookies.js"></script>	
 		<script src="/js/edit_menu_style.js"></script>	
+		<script src="/js/page_fade_in.js"></script>	
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
@@ -70,20 +71,7 @@
 		<footer>
 			<?php include("footer.php"); ?>
 		</footer>
-		<!--Content-->
-		
 
-		<!-- on hover will change elements, off hover is described in the second function-->
-		<!--change this later to use css instead of js-->
-
-
-		<script>
-		$(document).ready(function(){
-			$('.body-container').fadeIn();
-			$('footer').fadeIn();
-
-		});
-		</script>
 
 		<script>
 		$(document).ready(function(){
@@ -98,30 +86,5 @@
        		}
 		});
 		</script>
-
-		<!-- old script for use with the contact form <script>
-			/*$("#submit").on("click", function() {
-				name = $("#name").serialize();
-			    email = $("#mail").serialize();
-			    subject = $("#subject").serialize();
-			    message = $("#msg").serialize();
-
-			    $.ajax({
-			        url: "//formspree.io/valerie.bay2@gmail.com", 
-			        method: "POST",
-			        data: {
-				 			name : $('#name').val(),
-				            email : $('#mail').val(),
-				            subject : $('#subject').val(),
-				            message : $('#msg').val()
-				        },
-			        dataType: "json",
-
-			    });
-			    alert('Thanks for the email, we\'ll be in touch promptly.');
-			    window.location.href = "/index.php";
-			    return false;
-			});*/
-		</script>-->
 	</body>
 </html>
