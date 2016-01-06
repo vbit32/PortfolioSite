@@ -116,15 +116,28 @@
     text-decoration: none;
     color: black;
     padding: 10px;
+    padding-bottom: 2px;
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
     font-weight: 900; }
   .header-nav a:hover {
     width: 30px;
     padding: 6px;
+    padding-bottom: 2px;
     background: black;
     margin-right: 13px;
-    color: white; }
+    color: white;
+    border: 0; }
+
+.about {
+  margin-top: 7%; }
+  .about img {
+    width: 50%;
+    height: auto;
+    margin: -7% 0 18% 36%; }
+  .about p {
+    margin-right: 8%;
+    margin-left: -3%; }
 
 .footer-nav {
   width: 60%;
@@ -194,8 +207,6 @@
   width: 66%;
   margin-bottom: 2%;
   font-family: Fox; }
-  .contact-form h2 {
-    color: black; }
   .contact-form .section {
     width: 66%;
     margin: auto; }
@@ -243,36 +254,36 @@
   position: absolute;
   width: 100%; }
 
-.work-boxes {
-  height: 42%;
-  width: 44%;
-  position: relative;
-  padding-top: 12%;
-  margin: 3%;
-  text-align: center;
-  border: 1px solid white; }
-  .work-boxes p {
-    font-size: 80px;
-    font-family: LongTall;
-    color: white; }
-
-#dev {
-  background-color: #706CFF;
-  -webkit-transition: 0.6s ease-in-out;
-  transition: 0.6s ease-in-out; }
-
-#art {
-  background-color: #FF7878; }
-
-#dev:hover {
-  background-color: black; }
-
-#art:hover {
-  animation: myfirst 3s;
-  -moz-animation: myfirst 3s infinite;
-  /* Firefox */
-  -webkit-animation: myfirst 3s infinite;
-  /* Safari and Chrome */ }
+.index {
+  margin: 0 auto;
+  width: 86%;
+  padding-bottom: 40px; }
+  .index .work-boxes {
+    height: 42%;
+    width: 44%;
+    position: relative;
+    margin: 3%;
+    text-align: center;
+    border: 1px solid white; }
+    .index .work-boxes p {
+      font-size: 70px;
+      font-family: LongTall;
+      color: white;
+      margin-top: 34%; }
+  .index #dev {
+    background-color: #706CFF;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out; }
+  .index #art {
+    background-color: #FF7878; }
+  .index #dev:hover {
+    background-color: black; }
+  .index #art:hover {
+    animation: myfirst 3s;
+    -moz-animation: myfirst 3s infinite;
+    /* Firefox */
+    -webkit-animation: myfirst 3s infinite;
+    /* Safari and Chrome */ }
 @-moz-keyframes myfirst /* Firefox */ {
   0% {
     background: #FF7878; }
@@ -310,5 +321,13 @@
   -webkit-border-radius: 20px;
   -khtml-border-radius: 20px;
   border-radius: 20px; }
+
+.page-title {
+  font-family: Fox;
+  color: black;
+  text-align: left;
+  margin: 4% 0 4% 10%;
+  border-bottom: 1px solid #D4D1D1;
+  width: 80%; }
 
 /*# sourceMappingURL=base.css.map */

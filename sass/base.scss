@@ -153,6 +153,7 @@
 		text-decoration: none;
 		color: black;
 		padding: 10px;
+		padding-bottom:2px;
 		-webkit-transition: 0.3s ease-in-out;
 		transition: 0.3s ease-in-out;
 		font-weight: 900;
@@ -163,9 +164,25 @@
 	    //border: solid 1px #ffffff;
 	    width: 30px;
 	    padding: 6px;
+	    padding-bottom:2px;
 	    background: black;
 	    margin-right: 13px;
 	    color:white;
+	    border: 0;
+	}
+}
+
+.about {
+	margin-top: 7%;
+	img {
+		width: 50% ;
+		height: auto ;
+		margin: -7% 0 18% 36% ;
+	}
+
+	p {
+		margin-right:8%;
+		margin-left: -3%;
 	}
 }
 
@@ -257,9 +274,6 @@
 	margin-bottom: 2%;
 	font-family: Fox;
 
-	h2 {
-		color: black;
-	}
 	.section {
 		width: 66% ;
 		margin: auto;
@@ -323,60 +337,61 @@
   	width:100%;
 }
 
-.work-boxes {
-	height: 42%;
-	width: 44%;
-	position: relative;
-	padding-top: 12%;
-	margin: 3%;
-	text-align: center;
-	border: 1px solid white;
+.index {
+	margin: 0 auto;
+  	width: 86%;
+  	padding-bottom: 40px;
 
-	p {
-		font-size: 80px;
-		font-family: LongTall;
-		color: white;
+	.work-boxes {
+		height: 42%;
+		width: 44%;
+		position: relative;
+		margin: 3%;
+		text-align: center;
+		border: 1px solid white;
+
+		p {
+			font-size: 70px;
+			font-family: LongTall;
+			color: white;
+			margin-top: 34%;
+		}
 	}
 
-}
+	#dev {
+		background-color: $primary-blue;
+		-webkit-transition: 0.6s ease-in-out;
+		transition: 0.6s ease-in-out;
+	}
 
-#dev {
-	background-color: $primary-blue;
-	-webkit-transition: 0.6s ease-in-out;
-	transition: 0.6s ease-in-out;
-}
-#art {
-	background-color: $primary-red;
-	
-}
+	#art { background-color: $primary-red; }
 
-#dev:hover {
-	background-color:black;
-}
+	#dev:hover { background-color:black; }
 
-#art:hover {
-	animation:myfirst 3s;
-    -moz-animation:myfirst 3s infinite; /* Firefox */
-    -webkit-animation:myfirst 3s infinite; /* Safari and Chrome */
+	#art:hover {
+		animation:myfirst 3s;
+		-moz-animation:myfirst 3s infinite; /* Firefox */
+		-webkit-animation:myfirst 3s infinite; /* Safari and Chrome */
 
-    @-moz-keyframes myfirst /* Firefox */
-    {
-    	0%   {background:$primary-red;}
-    	20%  {background:$light-primary-red;}
-    	50%  {background:#ffbc78;}
-    	65%  {background:#aedf68}
-    	85%  {background:#8bcaf9}
-    	100% {background:$primary-red;}
-    }
-    @-webkit-keyframes myfirst /* Safari and Chrome */
-    {
-    	0%   {background:$primary-red;}
-    	20%  {background:$light-primary-red;}
-    	50%  {background:#ffbc78;}
-    	65%  {background:#aedf68}
-    	85%  {background:#8bcaf9}
-    	100% {background:$primary-red;}
-    }
+		@-moz-keyframes myfirst /* Firefox */
+		{
+			0%   {background:$primary-red;}
+			20%  {background:$light-primary-red;}
+			50%  {background:#ffbc78;}
+			65%  {background:#aedf68}
+			85%  {background:#8bcaf9}
+			100% {background:$primary-red;}
+		}
+		@-webkit-keyframes myfirst /* Safari and Chrome */
+		{
+			0%   {background:$primary-red;}
+			20%  {background:$light-primary-red;}
+			50%  {background:#ffbc78;}
+			65%  {background:#aedf68}
+			85%  {background:#8bcaf9}
+			100% {background:$primary-red;}
+		}
+	}
 }
 .picture-holder {
 	width: 27% ;
@@ -390,4 +405,13 @@
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20px;
     border-radius: 20px;
+}
+
+.page-title {
+	font-family: Fox;
+	color: black;
+	text-align: left;
+	margin: 4% 0 4% 10% ;
+	border-bottom: 1px solid $input-box-grey;
+	width: 80%;
 }

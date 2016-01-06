@@ -9,6 +9,7 @@
 		<script type="text/javascript" src="js/form_validation.js"></script>
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>
 		<script src="/js/manage_cookies.js"></script>	
+		<script src="/js/edit_menu_style.js"></script>	
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
@@ -21,8 +22,8 @@
 		</header>
 		<div class="body-container">
 			<div class="row">
+				<h2 class="page-title"> CONTACT </h2>
 				<form id="contact" class="contact-form col-xs-8" method="POST">
-					<h2> CONTACT </h2>
 					<!--Name-->
 				    <div class="section">
 				        <label for="name">NAME:</label>
@@ -56,7 +57,7 @@
 				    </div>
 				</form>
 				<div class="col-xs-4">
-					<p> Hello! </p><br>
+					<br>
 					<p> Please feel free to contact me for commisions, or for inquiry about my development or art work!</p>
 					<p> You may also contact me directly at my email address or phone number:</p>
 					<p> Email: vbit32@gmail.com</p>
@@ -79,6 +80,8 @@
 		<script>
 		$(document).ready(function(){
 			$('.body-container').fadeIn();
+			$('footer').fadeIn();
+
 		});
 		</script>
 
@@ -96,7 +99,7 @@
 		});
 		</script>
 
-		<!--<script>
+		<!-- old script for use with the contact form <script>
 			/*$("#submit").on("click", function() {
 				name = $("#name").serialize();
 			    email = $("#mail").serialize();

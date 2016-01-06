@@ -8,6 +8,7 @@
 		<script type="text/javascript"></script>
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>
 		<script src="/js/manage_cookies.js"></script>	
+		<script src="/js/edit_menu_style.js"></script>	
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
@@ -19,13 +20,12 @@
 			<?php include("header.php"); ?>
 		</header>
 		<div class="body-container">
-			<div class="row">
-				<div class="col-xs-3">
-						<p><b> put a picture here </b></p>
+			<h2 class="page-title"> ABOUT </h2>
+			<div class="row about">
+				<div class="col-xs-4">
+						<img src="/images/example.png">
 				</div>
-				<div class="col-xs-9">
-						<p><b> System.out.println ("hey."); </b></p><br><br>
-
+				<div class="col-xs-8">
 							<p>My name is Valerie Bay, I am a self-taught artist/illustrator, front-end developer and avid music lover living in South Florida.
 							Throughout all my life living here, I've come to recognize two definitve qualities about myself; One, I don't like the beach. And two,
 							. I've always had an affinity for both the logical and free-spirited aspects of life. 
@@ -44,7 +44,8 @@
 		<script>
 		$(document).ready(function(){
 			console.log("this is for a test");
-			$(".body-container").fadeIn("slow");
+			$('.body-container').fadeIn(1000);
+			$('footer').fadeIn(1000);
 		});
 		</script>
 	</body>

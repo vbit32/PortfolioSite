@@ -7,7 +7,8 @@
 		<!--<script src="splash_animation.js"></script>	-->
 		<script type="text/javascript"></script>
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>	
-		<script src="/js/manage_cookies.js"></script>	
+		<script src="/js/manage_cookies.js"></script>
+		<script src="/js/edit_menu_style.js"></script>		
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
@@ -20,9 +21,10 @@
 		<header style="display:none;">
 			<?php include("header.php"); ?>
 		</header>
-		
+
 		<div class="body-container" style="display:none">
-			<div class="row" style="margin:0">
+			<h2 class="page-title"> WORK </h2>
+			<div class="row index">
 				<a href="gallery.php">
 					<div class="col-xs-6 work-boxes" id="art">
 							<p> A r t w o r k </p>
