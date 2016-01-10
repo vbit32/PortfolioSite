@@ -20,24 +20,29 @@
 			<?php include("header.php"); ?>
 		</header>
 		<div class="body-container">
-			<div class="row">
-				<div class="col-xs-3 picture-holder">
-						
+			<h2 class="page-title"> ARTWORK </h2>
+			<div class="row gallery">
+				<div class="col-xs-3 thumbnail">
+					<img src="images/artwork/2.png" class="portrait" alt="Image">
+					<p> VIEW </p>
 				</div>
-				
-				<div class="col-xs-3 picture-holder">
-						
-				</div>
-
-				<div class="col-xs-3 picture-holder">
-						
+				<div class="col-xs-3 thumbnail">
+					<img src="images/artwork/3.png" class="portrait" alt="Image">
+					<p> VIEW </p>
 				</div>
 
-				<div class="col-xs-3 picture-holder">
-						
+				<div class="col-xs-3 thumbnail">
+					<img src="images/artwork/4.png">
+					<p> VIEW </p>
+				</div>
+
+				<div class="col-xs-3 thumbnail">
+					<img src="images/artwork/1.png" class="portrait" alt="Image">
+					<p> VIEW </p>
 				</div>
 			</div>
 		</div>
+		
 		<footer>
 			<?php include("footer.php"); ?>
 		</footer>

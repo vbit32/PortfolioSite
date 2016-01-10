@@ -129,7 +129,6 @@
 		display: inline-block;
     }
 
-
     .btn-group{
 		 float: right;
 		 vertical-align:middle;
@@ -220,8 +219,6 @@
 		vertical-align: bottom;
 		padding:2px;
 		padding-top: 6%;
-		-webkit-transition: 0.2s ease-in-out;
-		transition: 0.2s ease-in-out;
 	}
 
     a {
@@ -248,8 +245,7 @@
 	border: 7px double $primary-yellow;
     margin: auto;
     width: 60%;
-     -webkit-backface-visibility: hidden;
-     -webkit-transition-easing: ease-in-out;
+    overflow: hidden;
 
     p {
     	font-family: OpenSans;
@@ -324,6 +320,69 @@
 	}
 }
 
+.gallery {
+	width:80% ;
+	margin: 0 auto ;
+
+	// container
+	.thumbnail {
+	  width: 394px;
+	  height: 313px;
+	  border: none;
+	  overflow: hidden;
+	  margin: 25px;	  
+	  padding:10px;
+	  text-align:center;
+
+	  	//standard image rule for landscape
+		img {
+		  position:relative;
+		  left: 50%;
+		  top: 50%;
+		  height: 100%;
+		  width: auto;
+		  -webkit-transform: translate(-50%,-50%);
+		  -ms-transform: translate(-50%,-50%);
+		  transform: translate(-50%,-50%);
+		  overflow: hidden;
+		  -webkit-transition: 0.2s ease-in-out;
+	  	  transition: 0.2s ease-in-out;
+		}
+
+		//class for portrait images
+		img.portrait {
+		  width: 100%;
+		  height: auto;
+		}
+
+		p {
+			position: absolute ;
+			font-size:20px;
+			margin: auto;
+			opacity: 0;
+			bottom: 50%;
+			left: 33%;
+			background: black;
+			color: white;
+			z-index:99;
+			-webkit-transition: 0.2s ease-in-out;
+	  		transition: 0.2s ease-in-out;
+		}
+	}
+
+	.thumbnail:hover {
+		img {
+			filter: blur(4px) opacity(0.7) ;
+	  		-webkit-filter: blur(4px) opacity(0.7) ;
+		}
+
+		p {
+			opacity: 0.7;
+		}
+	}
+
+}
+
 #c {
 	position:absolute;
   	width:100%;
@@ -384,12 +443,6 @@
 			100% {background:$primary-red;}
 		}
 	}
-}
-.picture-holder {
-	width: 27% ;
-	height: 30% ;
-	border: 1px solid black ;
-	margin: 3% ;
 }
 
 .rounded-corners {
