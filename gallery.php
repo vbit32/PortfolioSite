@@ -8,7 +8,6 @@
 		<script type="text/javascript"></script>
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>
 		<script src="/js/manage_cookies.js"></script>	
-		<script src="/js/page_fade_in.js"></script>	
 		<link rel="stylesheet" type="text/css" href="sass/base.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
@@ -24,27 +23,33 @@
 			<div class="row gallery">
 				<div class="col-xs-3 thumbnail">
 					<img src="images/artwork/2.png" class="portrait" alt="Image">
-					<p> VIEW </p>
+					<p><a href="view.php#picture2"> VIEW </a></p>
 				</div>
 				<div class="col-xs-3 thumbnail">
 					<img src="images/artwork/3.png" class="portrait" alt="Image">
-					<p> VIEW </p>
+					<p><a href="view.php#picture3"> VIEW </a></p>
 				</div>
 
 				<div class="col-xs-3 thumbnail">
 					<img src="images/artwork/4.png">
-					<p> VIEW </p>
+					<p><a href="view.php#picture4"> VIEW </a></p>
 				</div>
 
 				<div class="col-xs-3 thumbnail">
 					<img src="images/artwork/1.png" class="portrait" alt="Image">
-					<p> VIEW </p>
+					<p><a href="view.php#picture1"> VIEW </a></p>
+				</div>
+
+				<div class="col-xs-3 thumbnail">
+					<img src="images/artwork/5.png" class="portrait" alt="Image">
+					<p><a href="view.php#picture5"> VIEW </a></p>
 				</div>
 			</div>
 		</div>
-		
+			
 		<footer>
 			<?php include("footer.php"); ?>
 		</footer>
+
 	</body>
 </html>

@@ -246,6 +246,7 @@
     margin: auto;
     width: 60%;
     overflow: hidden;
+    padding: 40px;
 
     p {
     	font-family: OpenSans;
@@ -260,6 +261,7 @@
 	position: relative;
 	width: 66%;
 	margin-bottom: 2%;
+	margin-top: 3%;
 	font-family: Fox;
 
 	.section {
@@ -321,8 +323,9 @@
 }
 
 .gallery {
-	width:80% ;
+	width:87% ;
 	margin: 0 auto ;
+	margin-bottom: 30px;
 
 	// container
 	.thumbnail {
@@ -333,6 +336,7 @@
 	  margin: 25px;	  
 	  padding:10px;
 	  text-align:center;
+	  box-shadow: 8px 8px 20px $soft-grey;
 
 	  	//standard image rule for landscape
 		img {
@@ -356,18 +360,22 @@
 		}
 
 		p {
-			position: absolute ;
-			font-size:20px;
-			margin: auto;
-			opacity: 0;
-			bottom: 50%;
-			left: 33%;
-			background: black;
-			color: white;
-			z-index:99;
-			-webkit-transition: 0.2s ease-in-out;
-	  		transition: 0.2s ease-in-out;
+			position: absolute;
+      		font-size: 20px;
+     	 	margin: auto;
+      		opacity: 0;
+      		bottom: 50%;
+       		left: 33%;
+       		background: black;
+       		color: white;
+       		z-index: 99;
+      		-webkit-transition: 0.2s ease-in-out;
+      		transition: 0.2s ease-in-out; 
 		}
+
+		a {
+			text-decoration: none;
+		}	
 	}
 
 	.thumbnail:hover {
@@ -378,9 +386,34 @@
 
 		p {
 			opacity: 0.7;
+			background:black;
+		}
+
+		a {
+			color: white ;
+			-webkit-transition: 0.2s ease-in-out;
+      		transition: 0.5s ease;
+      		border-bottom: 1px transparent;
+		}
+		a:hover {
+			
 		}
 	}
 
+}
+
+.view-art {
+	width:97%;
+	margin: 0 auto;
+	img {
+		width: 100% ;
+		height: auto ;
+	}
+
+	p {
+		padding-left: 12%;
+		width: 83%;
+	}
 }
 
 #c {
@@ -390,8 +423,7 @@
 
 .index {
 	margin: 0 auto;
-  	width: 86%;
-  	padding-bottom: 40px;
+  	width: 93%;
 
 	.work-boxes {
 		height: 42%;
@@ -456,7 +488,7 @@
 	font-family: Fox;
 	color: black;
 	text-align: left;
-	margin: 4% 0 4% 10% ;
+	margin: 1% 0 3% 6% ;
 	border-bottom: 1px solid $input-box-grey;
-	width: 80%;
+	width: 88%;
 }

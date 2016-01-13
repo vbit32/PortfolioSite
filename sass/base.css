@@ -183,7 +183,8 @@
   border: 7px double #FFEB00;
   margin: auto;
   width: 60%;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 40px; }
   .body-container p {
     font-family: OpenSans;
     padding: 10px 30px;
@@ -195,6 +196,7 @@
   position: relative;
   width: 66%;
   margin-bottom: 2%;
+  margin-top: 3%;
   font-family: Fox; }
   .contact-form .section {
     width: 66%;
@@ -240,8 +242,9 @@
     border-color: black; }
 
 .gallery {
-  width: 80%;
-  margin: 0 auto; }
+  width: 87%;
+  margin: 0 auto;
+  margin-bottom: 30px; }
   .gallery .thumbnail {
     width: 394px;
     height: 313px;
@@ -249,7 +252,8 @@
     overflow: hidden;
     margin: 25px;
     padding: 10px;
-    text-align: center; }
+    text-align: center;
+    box-shadow: 8px 8px 20px #9B9B9B; }
     .gallery .thumbnail img {
       position: relative;
       left: 50%;
@@ -277,11 +281,29 @@
       z-index: 99;
       -webkit-transition: 0.2s ease-in-out;
       transition: 0.2s ease-in-out; }
+    .gallery .thumbnail a {
+      text-decoration: none; }
   .gallery .thumbnail:hover img {
     filter: blur(4px) opacity(0.7);
     -webkit-filter: blur(4px) opacity(0.7); }
   .gallery .thumbnail:hover p {
-    opacity: 0.7; }
+    opacity: 0.7;
+    background: black; }
+  .gallery .thumbnail:hover a {
+    color: white;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.5s ease;
+    border-bottom: 1px transparent; }
+
+.view-art {
+  width: 97%;
+  margin: 0 auto; }
+  .view-art img {
+    width: 100%;
+    height: auto; }
+  .view-art p {
+    padding-left: 12%;
+    width: 83%; }
 
 #c {
   position: absolute;
@@ -289,8 +311,7 @@
 
 .index {
   margin: 0 auto;
-  width: 86%;
-  padding-bottom: 40px; }
+  width: 93%; }
   .index .work-boxes {
     height: 42%;
     width: 44%;
@@ -353,8 +374,8 @@
   font-family: Fox;
   color: black;
   text-align: left;
-  margin: 4% 0 4% 10%;
+  margin: 1% 0 3% 6%;
   border-bottom: 1px solid #D4D1D1;
-  width: 80%; }
+  width: 88%; }
 
 /*# sourceMappingURL=base.css.map */
