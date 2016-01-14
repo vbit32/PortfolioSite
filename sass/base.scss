@@ -84,21 +84,26 @@
 	}
 }
 
+//if using just text
 .title{
-		position: relative;
-    	text-align: center;
-		font-size: 90px ;
-		font-family: LongTall;
-		margin: auto;
-		padding-top:14px;
-		padding-bottom:10px;
-		-webkit-font-smoothing: antialiased;
-		font-weight: 100;
+	position: relative;
+	text-align: center;
+	font-size: 90px ;
+	font-family: LongTall;
+	margin: auto;
+	padding-top:14px;
+	padding-bottom:10px;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 100;
 
-		a{
-			text-decoration: none;
-			color: #404040;
-		}
+	a{
+		text-decoration: none;
+		color: #404040;
+	}
+
+	img {
+		width:15%;
+	}
 }
 
 .header-nav {

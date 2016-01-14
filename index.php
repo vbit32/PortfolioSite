@@ -16,7 +16,11 @@
 	</head>
 
 	<body>
-		<h1 class="title"><a id="title1" href="index.php">V B I T 3 2</a></h1>
+		<h1 class="title">
+			<a id="title1" href="index.php">
+				<img src="images/logo.png">
+			</a>
+		</h1>
 
 		<header style="display:none;">
 			<?php include("header.php"); ?>

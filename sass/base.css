@@ -71,6 +71,8 @@
   .title a {
     text-decoration: none;
     color: #404040; }
+  .title img {
+    width: 15%; }
 
 .header-nav {
   width: 60%;

@@ -14,7 +14,11 @@
 	</head>
 
 	<body>
-		<h1 class="title" ><a id="title1" href="index.php">V B I T 3 2</a></h1>
+		<h1 class="title">
+			<a id="title1" href="index.php">
+				<img src="images/logo.png">
+			</a>
+		</h1>
 		<header>
 			<?php include("header.php"); ?>
 		</header>
@@ -25,6 +29,7 @@
 					<img src="images/artwork/2.png" class="portrait" alt="Image">
 					<p><a href="view.php#picture2"> VIEW </a></p>
 				</div>
+
 				<div class="col-xs-3 thumbnail">
 					<img src="images/artwork/3.png" class="portrait" alt="Image">
 					<p><a href="view.php#picture3"> VIEW </a></p>
@@ -43,6 +48,16 @@
 				<div class="col-xs-3 thumbnail">
 					<img src="images/artwork/5.png" class="portrait" alt="Image">
 					<p><a href="view.php#picture5"> VIEW </a></p>
+				</div>
+
+				<div class="col-xs-3 thumbnail">
+					<img src="images/artwork/6.png" class="portrait" alt="Image">
+					<p><a href="view.php#picture6"> VIEW </a></p>
+				</div>
+
+				<div class="col-xs-3 thumbnail">
+					<img src="images/artwork/7.png" class="portrait" alt="Image">
+					<p><a href="view.php#picture7"> VIEW </a></p>
 				</div>
 			</div>
 		</div>
