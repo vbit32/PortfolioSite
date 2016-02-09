@@ -1,7 +1,7 @@
 <!--Menu stuff-->
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="sass/base.css">
+		<link rel="stylesheet" type="text/css" href="sass/main.css">
 	</head>
 	<body>
 		<nav class="footer-nav">

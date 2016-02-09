@@ -9,7 +9,7 @@
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>	
 		<script src="/js/manage_cookies.js"></script>
 		<script src="/js/edit_menu_style.js"></script>		
-		<link rel="stylesheet" type="text/css" href="sass/base.css">
+		<link rel="stylesheet" type="text/css" href="sass/main.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
 
@@ -22,7 +22,7 @@
 			</a>
 		</h1>
 
-		<header style="display:none;">
+		<header style="display:none;" id="hidden">
 			<?php include("header.php"); ?>
 		</header>
 

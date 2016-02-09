@@ -11,7 +11,7 @@
 		<script src="/js/manage_cookies.js"></script>	
 		<script src="/js/edit_menu_style.js"></script>	
 		<script src="/js/page_fade_in.js"></script>	
-		<link rel="stylesheet" type="text/css" href="sass/base.css">
+		<link rel="stylesheet" type="text/css" href="sass/main.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
 	</head>
@@ -28,6 +28,16 @@
 		<div class="body-container">
 			<div class="row">
 				<h2 class="page-title"> CONTACT </h2>
+
+					<div class="col-xs-4" id="hid">
+					<br>
+					<p> Please feel free to contact me for commisions, or for inquiry about my development or art work!
+					 You may also contact me directly at my email address or phone number:</p>
+					 <div style= "text-align:center">
+						<p><b> Email: vbit32@gmail.com </b></p>
+						<p><b> Phone: (954) 804 7399 </b></p>
+					</div>
+				</div>
 				<form id="contact" class="contact-form col-xs-8" method="POST">
 					<!--Name-->
 				    <div class="section">
@@ -61,13 +71,12 @@
 				        <button type="submit">submit.</button>
 				    </div>
 				</form>
-				<div class="col-xs-4">
+				<div class="col-xs-4" id="show">
 					<br>
-					<p> Please feel free to contact me for commisions, or for inquiry about my development or art work!</p>
-					<p> You may also contact me directly at my email address or phone number:</p>
-					<p> Email: vbit32@gmail.com</p>
-					<p> Phone: (954) 804 7399</p>
-
+					<p> Please feel free to contact me for commisions, or for inquiry about my development or art work!
+					<br><br>You may also contact me directly at my email address or phone number:</p>
+					<p><b> Email: vbit32@gmail.com</b></p>
+					<p><b> Phone: (954) 804 7399</b></p>
 				</div>
 			</div>
 		</div>

@@ -8,7 +8,7 @@
 		<script type="text/javascript"></script>
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>
 		<script src="/js/manage_cookies.js"></script>	
-		<link rel="stylesheet" type="text/css" href="sass/base.css">
+		<link rel="stylesheet" type="text/css" href="sass/main.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
 	</head>
