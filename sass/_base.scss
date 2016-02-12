@@ -173,15 +173,25 @@
 	position: relative;
 	margin: 3%;
 	text-align: center;
+
+	.img-holder {
+		display: block;
+		position: relative;
+	    background-repeat: no-repeat;
+	   border-radius: 50%;
+	}
+
 	img {
-		width: 50% ;
-		height: auto ;
-		margin: -7% 0 18% 36% ;
+		display: inline;
+	    margin: 0 auto;
+	    height: auto;
+	    width: 90%;
+	    text-align:left;
 	}
 
 	p {
-		margin-right:8%;
-		margin-left: -3%;
+		margin-top:47px;
+		text-align:left;
 	}
 }
 

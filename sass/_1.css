@@ -17,8 +17,21 @@
     bottom: 65%;
     text-align: center;
     display: inline;
-    top: 25%;
+    top: 65px;
+    line-height: 100%;
     vertical-align: middle; }
+
+  .about .col-xs-4 {
+    width: 100%;
+    top: 15px; }
+  .about img {
+    width: 262px;
+    height: auto; }
+  .about .col-xs-8 {
+    width: 100%; }
+  .about p {
+    width: 100%;
+    padding: 0; }
 
   .contact-form {
     width: 120%;
@@ -32,6 +45,13 @@
 
   .page-title {
     text-align: center;
-    font-size: 28px; } }
+    font-size: 28px; }
+
+  .header-nav a {
+    padding: 4px;
+    padding-bottom: 0; } }
+@media (max-width: 776px) {
+  .header-nav, .body-container, .footer-nav {
+    width: 95%; } }
 
 /*# sourceMappingURL=_1.css.map */

@@ -28,7 +28,7 @@
 			<h2 class="page-title"> ABOUT </h2>
 			<div class="row about">
 				<div class="col-xs-4">
-					<img src="/images/me.jpg">
+					<img class= "img-holder" src="/images/me.jpg">
 				</div>
 				<div class="col-xs-8">
 					<p>My name is Valerie Bay, I am a self-taught artist/illustrator, front-end developer and avid music lover living in South Florida.
