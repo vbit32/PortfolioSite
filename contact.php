@@ -31,8 +31,8 @@
 
 					<div class="col-xs-4" id="hid">
 					<br>
-					<p> Please feel free to contact me for commisions, or for inquiry about my development or art work!
-					 You may also contact me directly at my email address or phone number:</p>
+					<p>Please feel free to contact me for commisions, collaboration ideas, or for inquiry about my development or art work!
+					 <br><br>You may also contact me directly at my email address or phone number:</p>
 					 <div style= "text-align:center">
 						<p><b> Email: vbit32@gmail.com </b></p>
 						<p><b> Phone: (954) 804 7399 </b></p>
@@ -73,7 +73,7 @@
 				</form>
 				<div class="col-xs-4" id="show">
 					<br>
-					<p> Please feel free to contact me for commisions, or for inquiry about my development or art work!
+					<p>Please feel free to contact me for commisions, collaboration ideas, or for inquiry about my development or art work!
 					<br><br>You may also contact me directly at my email address or phone number:</p>
 					<p><b> Email: vbit32@gmail.com</b></p>
 					<p><b> Phone: (954) 804 7399</b></p>

@@ -31,9 +31,17 @@
 					<img class= "img-holder" src="/images/me.jpg">
 				</div>
 				<div class="col-xs-8">
-					<p>My name is Valerie Bay, I am a self-taught artist/illustrator, front-end developer and avid music lover living in South Florida.
+					<p><b>My name is Valerie Bay</b>, I am a self-taught artist/illustrator & front-end developer living in South Florida. 
 							Throughout all my life living here, I've come to recognize two definitve qualities about myself; One, I don't like the beach. And two,
-							. I've always had an affinity for both the logical and free-spirited aspects of life. 
+							art is truly in the eye of the beholder. <br><br> I've always had an affinity for both the calculated and free-spirited aspects of life. My main
+							goal that I've set out to achieve is to demonstrate and inspire the belief in others that technology and art are synchronous and one in the same. <br><br>
+							Coding is not strictly for mundane minds, and art is not just a menial act; Art is what you make of the ideas that you hold within, no matter how you choose to express them. Whether your medium is oil pastels or JavaScript,
+							I aim to show other developers and artists alike that there is no boundary in creativity when it comes to developing the final product, and that the combination of the artistic spirit with the logical mind 
+							is an eclectic force like no other. 
+							<br><br>
+							I'm also an avid vinyl collector and coffee lover :)
+							<br><br><br>
+							Have an idea to share? <a href="contact.php"><b>Let me know!</b></a>
 					</p>
 				</div>
 			</div>
