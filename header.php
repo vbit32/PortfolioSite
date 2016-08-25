@@ -6,9 +6,9 @@
 	<body>
 		<nav class="header-nav">
 			<ul>
-				<li id ="li1"><a id="1" href="index.php">WORK</a></li>
+				<li id ="li1"><a id="1" href="index.php">PORTFOLIO</a></li>
 				<li id="li2"><a id="2" href="about.php">ABOUT</a></li>
-				<li id="li3"><a id="3" href="ValerieBay_Resume.docx">MY STORENVY</a></li>
+				<li id="li3"><a id="3" href="http://www.vbit32.storenvy.com">SHOP</a></li>
 				<li id="li4"><a id="4" href="contact.php">CONTACT</a></li>
 			</ul>
 		</nav>	

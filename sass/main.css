@@ -20,6 +20,20 @@
 @font-face {
   font-family: Fox;
   src: url(../fonts/Fox.ttf); }
+.splash-outer {
+  border: 9px double #FFC3C3;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-left: 11%;
+  position: absolute; }
+
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px; }
+
 .splash {
   position: absolute;
   top: 50%;
@@ -30,6 +44,7 @@
   background: #FF7878;
   text-align: center;
   opacity: 0.9;
+  z-index: 99;
   filter: alpha(opacity=90);
   border-right: 19px solid #FFEB00;
   border-bottom: 19px solid #706CFF;
@@ -75,6 +90,9 @@
     width: 369px;
     padding-bottom: 14px;
     padding-top: 2px; }
+
+#intro-details {
+  text-align: center; }
 
 .header-nav {
   width: 60%;

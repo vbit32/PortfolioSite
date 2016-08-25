@@ -9,6 +9,7 @@
 		<script src="/node_modules/js-cookie/src/js.cookie.js"></script>	
 		<script src="/js/manage_cookies.js"></script>
 		<script src="/js/edit_menu_style.js"></script>		
+		<!--<script src="/js/intro_animation.js"></script>		-->
 		<link rel="stylesheet" type="text/css" href="sass/main.css">
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
 		<!--<div id="header" style="display:none"></div>-->
@@ -16,7 +17,7 @@
 	</head>
 
 	<body>
-		<h1 class="title">
+		<h1 class="title" style="display:none;">
 			<a id="title1" href="index.php">
 				<img src="images/logo.png">
 			</a>
@@ -27,7 +28,8 @@
 		</header>
 
 		<div class="body-container" style="display:none">
-			<h2 class="page-title"> WORK </h2>
+			<h2 class="page-title"> PORTFOLIO </h2>
+			<p id="intro-details"> Valerie Fernandes Bay </br> Front-End Web Developer & Freelance Artist</br>Miami, FL.</p>
 			<div class="row index">
 				<a href="gallery.php">
 					<div class="col-xs-6 work-boxes" id="art">
@@ -48,22 +50,25 @@
 		<!--Content-->
 		<!--this shows first, then fades out-->
 		<div id="splash" class="splash">
-		  	<p><b>FRONT-END DEVELOPER</b></p>
-		  	<p><b>ILLUSTRATOR</b></p>
-		  	<p><b> MEME CONNOISSEUR </p>
-		  	<a id="enterSite" href=""><b>ENTER</b></a>
+			  	<p><b>FRONT-END DEVELOPER</b></p>
+			  	<p><b>ARTIST</b></p>
+			  	<p><b> MEME CONNOISSEUR </p>
+			  	<a id="enterSite" href=""><b>ENTER</b></a>
 		</div>
+	
 
 
 		<script>
 		$(document).ready(function(){
  			if (Cookies.get('currentState') == 'entered'){
+ 				$('h1').css("display", "");
            		$('.body-container').css("display", "");
            		$('header').css("display", "");
            		$('footer').css("display", "");
            		$('#splash').css("display", "none");
        		}
        		else {
+       			$('h1').css("display", "none");
        			$('.body-container').css("display", "none");
            		$('header').css("display", "none");
            		$('footer').css("display", "none");
@@ -72,16 +77,6 @@
 		});
 		</script>
 
-		<script>
-		$("#art").hover(
-		    function(){
-		        $("#art").animate({'backgroundColor': '#f5f5f5'},400);
-		    },
-		    function(){
-		        $(this).animate({'backgroundColor': '#000'},400);
-		    }
-		); 
-		</script>
 
 		<!-- fades out the entrance design on click -->
 		<script>
@@ -91,6 +86,7 @@
         		Cookies.set('currentState', 'entered') ;
             	e.preventDefault();
        			$('#splash').fadeOut('3000') ;
+       			$('h1').fadeIn('3000') ;
        			$('header').slideDown('slow','swing', function(){
 					$('.body-container').fadeIn('slow') ;
 					$('footer').fadeIn('slow') ;
